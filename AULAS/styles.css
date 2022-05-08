@@ -1,0 +1,37 @@
+@import '../styles/config.css';
+@import '../styles/styles.css';
+
+/*header*/
+
+.btn-voltar{
+    border: none;
+    background-color: #0077ff;
+    padding: 10px 40px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover{
+    background-color: #0572ee;
+    transition: 0.3s;
+  
+}
+
+.btn-voltar a{
+    font-size: 3rem;
+    color: white;
+}
+
+/*main*/
+
+.main article h1{
+    font-size: 5rem;
+    color: #0077ff;
+    margin-bottom: 10px;
+}
+
+.main article ul li a{
+    font-size: 4rem;
+    color: #aeaeae;
+    font-style: italic;
+}
